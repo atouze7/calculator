@@ -1,0 +1,71 @@
+body {
+  background-color: cadetblue;
+}
+
+.mainBox {
+  background-color: black;
+  height: 500px;
+  width: 300px;
+  margin: auto;
+}
+
+#inputs {
+  position: relative;
+  width: 240px;
+  height: 40px;
+  top: 20px;
+  left: 25px;
+}
+
+button {
+  height: 60px;
+  width: 55px;
+  border-radius: 50%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.zero {
+  width: 55px;
+  border-radius: 40%;
+}
+
+.oper {
+  position: relative;
+  bottom: 293px;
+  left: 220px;
+}
+
+.operations {
+  background-color: deepskyblue;
+  color: white;
+}
+
+.numBtns {
+  border: none;
+  position: relative;
+  left: 25px;
+}
+
+.num {
+  color: white;
+  background-color: darkcyan;
+}
+
+.equals {
+  background-color: deepskyblue;
+  color: white;
+}
+
+.reload {
+  position: relative;
+  top: -160px;
+  left: -75px;
+  color: white;
+  background-color: orange;
+  height: 60px;
+  width: 55px;
+}
